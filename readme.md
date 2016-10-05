@@ -11,8 +11,8 @@ eg: `python3 rank.py 0 100`
 The result will be written to `output.csv`  
 
 > **Notice**  
-> Script will run in 2 processes, 4 thread per process  
-> Request failure will be handled automatically.  
+> Script will run in 2 processes, 4 threads per process  
+> Request failure will be handled and redo automatically.  
 > Because the API was slow, so you can do other things during this.  
 
 ## How It Works
@@ -28,7 +28,7 @@ And [the github search API](https://developer.github.com/v3/search/#search-repos
 0-100:  
 ![github-rank-list-all_2016-10-05](img/github-rank-list-all_2016-10-05.png)  
 
-10-100:
+10-100:  
 ![github-rank-list-10plus_2016-10-05](img/github-rank-list-10plus_2016-10-05.png)  
 
 ### table
