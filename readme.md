@@ -2,7 +2,7 @@
 A simple script to get all github repo's stars, to generate a rank list  
 利用github搜索的筛选器来得到每个stars有多少repo, 进而产生一个github项目的星星排行榜  
 
-好吧其实只是干正事无聊了随便写的QAQ  
+好吧其实只是干正事累了随便写的QAQ  
 
 ## usage
 `python3 rank.py [Start] [End]`  
